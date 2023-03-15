@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: 'Everest_Line';
+    src: url('Everest_Line.woff2') format('woff2'),
+         url('Everest_Line.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+font-family: 'Everest_Line';
+
+}
+
+
+h1{
+	font-size:10vw;
+}
+
+p {
+    font-size:3vw;
+}
+
+#cab{
+  background-color: #75ACEB;
+}
+
+#cab:hover{
+	background-image: url('https://media.giphy.com/media/LrEuHhGTir0gtU0jVH/giphy-downsized-large.gif');
+    background-size: cover;
+    padding:0;
+    margin:0;
+   background-position: 25% 50%; 	
+   height: auto;
+}
+
+#corpo{
+	background-color: #F5F379;
+}
+
+#pe{
+	background-color: white;
+
+}
+
+#barra_nav{
+		font-size:5vw;
+       background-color: #75ACEB;
+}
+
+
+
+
+
+/*botoes de navegacao*/
+
+#botao_navbar1 {
+     color: white;
+}
+
+#botao_navbar2 {
+     color: white;
+}
+
+#botao_navbar3 {
+     color: white;
+}
+
+
+
+
+#botao_navbar1:hover {
+     color: black;
+}
+
+#botao_navbar2:hover {
+     color: black;
+}
+
+#botao_navbar3:hover {
+     color: black;
+}
+
+#seta2{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+}
